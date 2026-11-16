@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indomie World | Delicious Moments</title>
+     <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900">
+    <header class=" bg-red-800/70 backdrop-blur-md text-white shadow-lg rounded-xl sticky top-0 z-50 4 ">
+        <nav class=" px-6 py-5 flex justify-between items-center">
+
+            <!-- LOGO -->
+            <a href="index.html" class="text-3xl font-extrabold">
+                Indomie<span class="text-yellow-400">World</span>
+            </a>
+
+           <!-- DESKTOP MENU -->
+            <div class="hidden md:flex items-center gap-8 font-semibold hidden md:flex gap-6 mx-auto flex max-w-7xl items-center justify-between gap-8">
+            <a href="index.html" class="hover:text-yellow-300">Home</a>
+            <a href="about.html" class="hover:text-yellow-300">About</a>
+            <a href="products.html" class="hover:text-yellow-300">Products</a>
+            <a href="recipes.html" class="hover:text-yellow-300">Recipes</a>
+            <a href="cooking.html" class="hover:text-yellow-300">Cooking Guide</a>
+            <a href="contact.html" class="hover:text-yellow-300">Contact</a>
+          
+                    
+             <!-- BUTTON -->
+            <a href="products.html" class="bg-yellow-400 text-red-700 px-6 py-3 rounded-full font-bold hover:bg-yellow-300 transition hover:scale-105 absolute right-20">
+                Explore Now
+            </a>
+              </div>
+                     <!-- HAMBURGER BUTTON -->
+            <button id="menu-btn" class="text-3xl md:hidden bg-yellow-400 text-red-700 px-4 py-2 rounded-full font-bold hover:bg-yellow-300 transition hover:scale-105">
+        ☰
+    </button>
+        </nav>
+    </header>
+
+<nav id="mobile-menu" class="hidden bg-red-900 text-white p-5 md:hidden">
+    <a href="index.html" class="block py-3">Home</a>
+    <a href="about.html" class="block py-3">About</a>
+    <a href="products.html" class="block py-3">Products</a>
+    <a href="recipes.html" class="block py-3">Shop</a>
+    <a href="cooking.html" class="block py-3">Gallery</a>
+    <a href="contact.html" class="block py-3">Contact</a>
+    <a href="products.html" class="bg-yellow-400 text-red-700 px-6 py-3 rounded-full font-bold hover:bg-yellow-300 transition hover:scale-105 block py-3">
+                Explore Now
+    </a>
+
+</nav>
+
+
+    <section class="bg-orange-400">
+        <div class="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center">
+
+            <!-- HERO TEXT -->
+            <div>
+                <p class="text-red-700 font-bold uppercase tracking-widest mb-4">
+                   More Than Just Noodles
+                </p>
+
+                <h1 class="text-4xl md:text-6xl font-extrabold text-red-700 leading-tight mb-6">
+                  Discover Delicious Indomie Recipes
+                </h1>
+
+                <p class="text-gray-800 text-lg mb-8">
+                 Explore exciting ways to enjoy your favourite Indomie noodles. Discover simple, delicious and creative recipes that make every meal special. From classic noodle dishes to exciting new combinations, there is always something tasty to try! 
+                </p>
+
+                <div class="flex flex-wrap gap-4">
+                    <a href="cooking.html" class="bg-yellow-400 text-red-700 px-8 py-4 rounded-full font-bold hover:bg-yellow-300 transition">
+                        Cooking Guide
+                    </a>
+                    <a href="/classic-indomie.html" class="bg-red-700 text-white px-8 py-4 rounded-full font-bold hover:bg-red-600 transition">
+                        Explore Recipes
+                    </a>
+                   
+                </div>
+                  </div>
+  
+            <!-- HERO IMAGE -->
+            <div>
+                <img
+                    src="/image/kyeye.jpeg"
+                    alt="Delicious noodles in a bowl"
+                    class="w-full h-[400px] object-cover rounded-3xl shadow-2xl
+                    hover:scale-105 transition transform duration-300"
+                >
+            </div>
+
+      
+        </div>
+    </section>
+
+    <section class="bg-orange-900 px-6 py-20 border-t-4 border-blue-900">
+
+    <div class="max-w-7xl mx-auto">
+
+        <div class="text-center mb-14">
+
+            <p class="text-yellow-400 font-bold uppercase tracking-widest mb-3">
+                Our Recipes
+            </p>
+
+            <h2 class="text-4xl md:text-5xl font-extrabold text-white mb-5">
+                Explore Our Delicious Recipes
+            </h2>
+
+            <p class="text-gray-400 max-w-2xl mx-auto">
+                Discover 24 amazing ways to enjoy your favourite Indomie.
+                From classic noodles to creative combinations, find your
+                next favourite meal.
+            </p>
+
+        </div>
+
+        <!-- Recipe Cards -->
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+
+<!-- Recipe 1 -->
+<div class="bg-[#151c2b] rounded-2xl overflow-hidden border border-gray-700 hover:border-yellow-400 hover:-translate-y-2 transition duration-300">
+    <img src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=600&q=80" alt="Classic Indomie" class="w-full h-52 object-cover">
+    <div class="p-5">
+        <span class="text-yellow-400 text-xs font-bold">POPULAR</span>
+        <h3 class="text-white text-xl font-bold mt-2">Classic Indomie and Fried Egg</h3>
+        <p class="text-gray-400 text-sm mt-3">Enjoy delicious noodles served with a tasty fried egg.</p>
+        <div class="flex justify-between text-gray-400 text-xs mt-5">
+            <span>⏱ 15 Minutes</span>
+            <span>Easy</span>
+        </div>
+          <button class="w-full bg-yellow-400 text-black font-bold py-3 rounded-lg mt-5 hover:bg-yellow-300 transition">View Recipe</button>
+    </div>
+</div>
+
+<!-- Recipe 2 -->
+<div class="bg-[#151c2b] rounded-2xl overflow-hidden border border-gray-700 hover:border-yellow-400 hover:-translate-y-2 transition duration-300">
+    <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=600&q=80" alt="Vegetable noodles" class="w-full h-52 object-cover">
+    <div class="p-5">
+        <span class="text-green-400 text-xs font-bold">HEALTHY IDEA</span>
+        <h3 class="text-white text-xl font-bold mt-2">Indomie Vegetable Stir-Fry</h3>
+        <p class="text-gray-400 text-sm mt-3">Noodles combined with carrots, cabbage and fresh vegetables.</p>
+        <div class="flex justify-between text-gray-400 text-xs mt-5">
+            <span>⏱ 20 Minutes</span>
+            <span>Easy</span>
+        </div>
+        <button class="w-full bg-yellow-400 text-black font-bold py-3 rounded-lg mt-5 hover:bg-yellow-300 transition">View Recipe</button>
+    </div>
+</div>
+
+<!-- Recipe 3 -->
+<div class="bg-[#151c2b] rounded-2xl overflow-hidden border border-gray-700 hover:border-yellow-400 hover:-translate-y-2 transition duration-300">
+    <img src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=600&q=80" alt="Spicy noodles" class="w-full h-52 object-cover">
+    <div class="p-5">
+        <span class="text-red-400 text-xs font-bold">SPICY</span>
+        <h3 class="text-white text-xl font-bold mt-2">Spicy Indomie Noodles</h3>
+        <p class="text-gray-400 text-sm mt-3">A flavourful noodle dish with pepper and delicious seasoning.</p>
+        <div class="flex justify-between text-gray-400 text-xs mt-5">
+            <span>⏱ 15 Minutes</span>
+            <span>Medium</span>
+        </div>
+        <button class="w-full bg-yellow-400 text-black font-bold py-3 rounded-lg mt-5 hover:bg-yellow-300 transition">View Recipe</button>
+    </div>
+</div>
+
+<!-- Recipe 4 -->
+<div class="bg-[#151c2b] rounded-2xl overflow-hidden border border-gray-700 hover:border-yellow-400 hover:-translate-y-2 transition duration-300">
+    <img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=600&q=80" alt="Chicken noodles" class="w-full h-52 object-cover">
+    <div class="p-5">
+        <span class="text-blue-400 text-xs font-bold">SPECIAL</span>
+        <h3 class="text-white text-xl font-bold mt-2">Indomie Chicken Delight</h3>
+        <p class="text-gray-400 text-sm mt-3">Delicious noodles served with chicken pieces and vegetables.</p>
+        <div class="flex justify-between text-gray-400 text-xs mt-5">
+            <span>⏱ 25 Minutes</span>
+            <span>Medium</span>
+        </div>
+        <button class="w-full bg-yellow-400 text-black font-bold py-3 rounded-lg mt-5 hover:bg-yellow-300 transition">View Recipe</button>
+    </div>
+</div>
+
+<!-- Recipe 5 -->
+<div class="bg-[#151c2b] rounded-2xl overflow-hidden border border-gray-700 hover:border-yellow-400 hover:-translate-y-2 transition duration-300">
+    <img src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=600&q=80" alt="Sausage noodles" class="w-full h-52 object-cover">
+    <div class="p-5">
+        <h3 class="text-white text-xl font-bold">Indomie with Sausages</h3>
+        <p class="text-gray-400 text-sm mt-3">Enjoy tasty noodles with sliced sausages and seasoning.</p>
+        <div class="flex justify-between text-gray-400 text-xs mt-5">
+            <span>⏱ 15 Minutes</span>
+            <span>Easy</span>
+        </div>
+        <button class="w-full bg-yellow-400 text-black font-bold py-3 rounded-lg mt-5">View Recipe</button>
+    </div>
+</div>
+
+<!-- Recipe 6 -->
+<div class="bg-[#151c2b] rounded-2xl overflow-hidden border border-gray-700 hover:border-yellow-400 hover:-translate-y-2 transition duration-300">
+    <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=600&q=80" alt="Creamy noodles" class="w-full h-52 object-cover">
+    <div class="p-5">
+        <h3 class="text-white text-xl font-bold">Creamy Indomie Special</h3>
+        <p class="text-gray-400 text-sm mt-3">A creative creamy noodle dish with a rich flavour.</p>
+        <div class="flex justify-between text-gray-400 text-xs mt-5">
+            <span>⏱ 20 Minutes</span>
+            <span>Medium</span>
+        </div>
+        <button class="w-full bg-yellow-400 text-black font-bold py-3 rounded-lg mt-5">View Recipe</button>
+    </div>
+</div>
+
+<!-- Recipe 7 -->
+<div class="bg-[#151c2b] rounded-2xl overflow-hidden border border-gray-700 hover:border-yellow-400 hover:-translate-y-2 transition duration-300">
+    <img src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=600&q=80" alt="Seafood noodles" class="w-full h-52 object-cover">
+    <div class="p-5">
+        <h3 class="text-white text-xl font-bold">Indomie Seafood Special</h3>
+        <p class="text-gray-400 text-sm mt-3">Noodles combined with seafood and fresh vegetables.</p>
+        <div class="flex justify-between text-gray-400 text-xs mt-5">
+            <span>⏱ 25 Minutes</span>
+            <span>Medium</span>
+        </div>
+        <button class="w-full bg-yellow-400 text-black font-bold py-3 rounded-lg mt-5">View Recipe</button>
+    </div>
+</div>
+
+<!-- Recipe 8 -->
+<div class="bg-[#151c2b] rounded-2xl overflow-hidden border border-gray-700 hover:border-yellow-400 hover:-translate-y-2 transition duration-300">
+    <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=600&q=80" alt="Cheese noodles" class="w-full h-52 object-cover">
+    <div class="p-5">
+        <h3 class="text-white text-xl font-bold">Indomie Cheese Delight</h3>
+        <p class="text-gray-400 text-sm mt-3">Noodles with melted cheese and tasty seasoning.</p>
+        <div class="flex justify-between text-gray-400 text-xs mt-5">
+            <span>⏱ 20 Minutes</span>
+            <span>Easy</span>
+        </div>
+        <button class="w-full bg-yellow-400 text-black font-bold py-3 rounded-lg mt-5">View Recipe</button>
+    </div>
+</div>
+
+<!-- Recipe 9 -->
+<div class="bg-[#151c2b] rounded-2xl overflow-hidden border border-gray-700 hover:border-yellow-400 hover:-translate-y-2 transition duration-300">
+    <img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=600&q=80" alt="Jollof noodles" class="w-full h-52 object-cover">
+    <div class="p-5">
+        <h3 class="text-white text-xl font-bold">Indomie Jollof Style</h3>
+        <p class="text-gray-400 text-sm mt-3">A special jollof-inspired noodle dish with tomatoes and pepper.</p>
+        <div class="flex justify-between text-gray-400 text-xs mt-5">
+            <span>⏱ 20 Minutes</span>
+            <span>Medium</span>
+        </div>
+        <button class="w-full bg-yellow-400 text-black font-bold py-3 rounded-lg mt-5">View Recipe</button>
+    </div>
+</div>
+
+<!-- Recipe 10 -->
+<div class="bg-[#151c2b] rounded-2xl overflow-hidden border border-gray-700 hover:border-yellow-400 hover:-translate-y-2 transition duration-300">
+    <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=600&q=80" alt="Plantain noodles" class="w-full h-52 object-cover">
+    <div class="p-5">
+        <h3 class="text-white text-xl font-bold">Indomie with Fried Plantain</h3>
+        <p class="text-gray-400 text-sm mt-3">Enjoy tasty noodles served with sweet fried plantain.</p>
+        <div class="flex justify-between text-gray-400 text-xs mt-5">
+            <span>⏱ 25 Minutes</span>
+            <span>Easy</span>
+        </div>
+        <button class="w-full bg-yellow-400 text-black font-bold py-3 rounded-lg mt-5">View Recipe</button>
+    </div>
+</div>
+
+<!-- Recipe 11 -->
+<div class="bg-[#151c2b] rounded-2xl overflow-hidden border border-gray-700 hover:border-yellow-400 hover:-translate-y-2 transition duration-300">
+    <img src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=600&q=80" alt="Egg stir fry" class="w-full h-52 object-cover">
+    <div class="p-5">
+        <h3 class="text-white text-xl font-bold">Indomie Egg Stir-Fry</h3>
+        <p class="text-gray-400 text-sm mt-3">Noodles mixed with egg and delicious vegetables.</p>
+        <div class="flex justify-between text-gray-400 text-xs mt-5">
+            <span>⏱ 15 Minutes</span>
+            <span>Easy</span>
+        </div>
+        <button class="w-full bg-yellow-400 text-black font-bold py-3 rounded-lg mt-5">View Recipe</button>
+    </div>
+</div>
+
+<!-- Recipe 12 -->
+<div class="bg-[#151c2b] rounded-2xl overflow-hidden border border-gray-700 hover:border-yellow-400 hover:-translate-y-2 transition duration-300">
+    <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=600&q=80" alt="Special mix noodles" class="w-full h-52 object-cover">
+    <div class="p-5">
+        <h3 class="text-white text-xl font-bold">Indomie Special Mix</h3>
+        <p class="text-gray-400 text-sm mt-3">A creative combination of noodles, egg and vegetables.</p>
+        <div class="flex justify-between text-gray-400 text-xs mt-5">
+            <span>⏱ 20 Minutes</span>
+            <span>Medium</span>
+        </div>
+        <button class="w-full bg-yellow-400 text-black font-bold py-3 rounded-lg mt-5">View Recipe</button>
+    </div>
+</div>
+
+<!-- Recipe 13 -->
+<div class="bg-[#151c2b] rounded-2xl overflow-hidden border border-gray-700 hover:border-yellow-400 hover:-translate-y-2 transition duration-300">
+    <img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=600&q=80" alt="Tomato noodles" class="w-full h-52 object-cover">
+    <div class="p-5">
+        <h3 class="text-white text-xl font-bold">Tomato Indomie Delight</h3>
+        <p class="text-gray-400 text-sm mt-3">Noodles cooked with tomatoes and flavourful seasoning.</p>
+        <div class="flex justify-between text-gray-400 text-xs mt-5">
+            <span>⏱ 20 Minutes</span>
+            <span>Easy</span>
+        </div>
+        <button class="w-full bg-yellow-400 text-black font-bold py-3 rounded-lg mt-5">View Recipe</button>
+    </div>
+</div>
+
+<!-- Recipe 14 -->
+<div class="bg-[#151c2b] rounded-2xl overflow-hidden border border-gray-700 hover:border-yellow-400 hover:-translate-y-2 transition duration-300">
+    <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=600&q=80" alt="Garlic noodles" class="w-full h-52 object-cover">
+    <div class="p-5">
+        <h3 class="text-white text-xl font-bold">Garlic Indomie Noodles</h3>
+        <p class="text-gray-400 text-sm mt-3">A tasty noodle combination with garlic and seasoning.</p>
+        <div class="flex justify-between text-gray-400 text-xs mt-5">
+            <span>⏱ 15 Minutes</span>
+            <span>Easy</span>
+        </div>
+        <button class="w-full bg-yellow-400 text-black font-bold py-3 rounded-lg mt-5">View Recipe</button>
+    </div>
+</div>
+
+<!-- Recipe 15 -->
+<div class="bg-[#151c2b] rounded-2xl overflow-hidden border border-gray-700 hover:border-yellow-400 hover:-translate-y-2 transition duration-300">
+    <img src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=600&q=80" alt="Pepper noodles" class="w-full h-52 object-cover">
+    <div class="p-5">
+        <h3 class="text-white text-xl font-bold">Pepper Indomie Special</h3>
+        <p class="text-gray-400 text-sm mt-3">A spicy noodle recipe with fresh pepper and onions.</p>
+        <div class="flex justify-between text-gray-400 text-xs mt-5">
+            <span>⏱ 15 Minutes</span>
+            <span>Medium</span>
+        </div>
+        <button class="w-full bg-yellow-400 text-black font-bold py-3 rounded-lg mt-5">View Recipe</button>
+    </div>
+</div>
+
+<!-- Recipe 16 -->
+<div class="bg-[#151c2b] rounded-2xl overflow-hidden border border-gray-700 hover:border-yellow-400 hover:-translate-y-2 transition duration-300">
+    <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=600&q=80" alt="Cabbage noodles" class="w-full h-52 object-cover">
+    <div class="p-5">
+        <h3 class="text-white text-xl font-bold">Cabbage Indomie Mix</h3>
+        <p class="text-gray-400 text-sm mt-3">Noodles mixed with fresh cabbage and vegetables.</p>
+        <div class="flex justify-between text-gray-400 text-xs mt-5">
+            <span>⏱ 20 Minutes</span>
+            <span>Easy</span>
+        </div>
+        <button class="w-full bg-yellow-400 text-black font-bold py-3 rounded-lg mt-5">View Recipe</button>
+    </div>
+</div>
+
+<!-- Recipe 17 -->
+<div class="bg-[#151c2b] rounded-2xl overflow-hidden border border-gray-700 hover:border-yellow-400 hover:-translate-y-2 transition duration-300">
+    <img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=600&q=80" alt="Beef noodles" class="w-full h-52 object-cover">
+    <div class="p-5">
+        <h3 class="text-white text-xl font-bold">Indomie Beef Delight</h3>
+        <p class="text-gray-400 text-sm mt-3">Noodles served with tasty beef and fresh vegetables.</p>
+        <div class="flex justify-between text-gray-400 text-xs mt-5">
+            <span>⏱ 30 Minutes</span>
+            <span>Medium</span>
+        </div>
+        <button class="w-full bg-yellow-400 text-black font-bold py-3 rounded-lg mt-5">View Recipe</button>
+    </div>
+</div>
+
+<!-- Recipe 18 -->
+<div class="bg-[#151c2b] rounded-2xl overflow-hidden border border-gray-700 hover:border-yellow-400 hover:-translate-y-2 transition duration-300">
+    <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=600&q=80" alt="Carrot noodles" class="w-full h-52 object-cover">
+    <div class="p-5">
+        <h3 class="text-white text-xl font-bold">Carrot Indomie Special</h3>
+        <p class="text-gray-400 text-sm mt-3">A colourful noodle dish with carrots and vegetables.</p>
+        <div class="flex justify-between text-gray-400 text-xs mt-5">
+            <span>⏱ 15 Minutes</span>
+            <span>Easy</span>
+        </div>
+        <button class="w-full bg-yellow-400 text-black font-bold py-3 rounded-lg mt-5">View Recipe</button>
+    </div>
+</div>
+
+<!-- Recipe 19 -->
+<div class="bg-[#151c2b] rounded-2xl overflow-hidden border border-gray-700 hover:border-yellow-400 hover:-translate-y-2 transition duration-300">
+    <img src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=600&q=80" alt="Onion noodles" class="w-full h-52 object-cover">
+    <div class="p-5">
+        <h3 class="text-white text-xl font-bold">Onion Indomie Delight</h3>
+        <p class="text-gray-400 text-sm mt-3">A simple noodle recipe with onions and tasty seasoning.</p>
+        <div class="flex justify-between text-gray-400 text-xs mt-5">
+            <span>⏱ 15 Minutes</span>
+            <span>Easy</span>
+        </div>
+        <button class="w-full bg-yellow-400 text-black font-bold py-3 rounded-lg mt-5">View Recipe</button>
+    </div>
+</div>
+
+<!-- Recipe 20 -->
+<div class="bg-[#151c2b] rounded-2xl overflow-hidden border border-gray-700 hover:border-yellow-400 hover:-translate-y-2 transition duration-300">
+    <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=600&q=80" alt="Herb noodles" class="w-full h-52 object-cover">
+    <div class="p-5">
+        <h3 class="text-white text-xl font-bold">Herb Indomie Special</h3>
+        <p class="text-gray-400 text-sm mt-3">Noodles with a fresh combination of herbs and seasoning.</p>
+        <div class="flex justify-between text-gray-400 text-xs mt-5">
+            <span>⏱ 20 Minutes</span>
+            <span>Medium</span>
+        </div>
+        <button class="w-full bg-yellow-400 text-black font-bold py-3 rounded-lg mt-5">View Recipe</button>
+    </div>
+</div>
+
+<!-- Recipe 21 -->
+<div class="bg-[#151c2b] rounded-2xl overflow-hidden border border-gray-700 hover:border-yellow-400 hover:-translate-y-2 transition duration-300">
+    <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=600&q=80" alt="Mixed vegetable noodles" class="w-full h-52 object-cover">
+    <div class="p-5">
+        <h3 class="text-white text-xl font-bold">Mixed Vegetable Indomie</h3>
+        <p class="text-gray-400 text-sm mt-3">A colourful combination of noodles and mixed vegetables.</p>
+        <div class="flex justify-between text-gray-400 text-xs mt-5">
+            <span>⏱ 20 Minutes</span>
+            <span>Easy</span>
+        </div>
+        <button class="w-full bg-yellow-400 text-black font-bold py-3 rounded-lg mt-5">View Recipe</button>
+    </div>
+</div>
+
+<!-- Recipe 22 -->
+<div class="bg-[#151c2b] rounded-2xl overflow-hidden border border-gray-700 hover:border-yellow-400 hover:-translate-y-2 transition duration-300">
+    <img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=600&q=80" alt="Indomie with mushrooms" class="w-full h-52 object-cover">
+    <div class="p-5">
+        <h3 class="text-white text-xl font-bold">Mushroom Indomie</h3>
+        <p class="text-gray-400 text-sm mt-3">Enjoy noodles with mushrooms and delicious vegetables.</p>
+        <div class="flex justify-between text-gray-400 text-xs mt-5">
+            <span>⏱ 25 Minutes</span>
+            <span>Medium</span>
+        </div>
+        <button class="w-full bg-yellow-400 text-black font-bold py-3 rounded-lg mt-5">View Recipe</button>
+    </div>
+</div>
+
+<!-- Recipe 23 -->
+<div class="bg-[#151c2b] rounded-2xl overflow-hidden border border-gray-700 hover:border-yellow-400 hover:-translate-y-2 transition duration-300">
+    <img src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=600&q=80" alt="Indomie with corn" class="w-full h-52 object-cover">
+    <div class="p-5">
+        <h3 class="text-white text-xl font-bold">Sweet Corn Indomie</h3>
+        <p class="text-gray-400 text-sm mt-3">A creative noodle dish with sweet corn and vegetables.</p>
+        <div class="flex justify-between text-gray-400 text-xs mt-5">
+            <span>⏱ 15 Minutes</span>
+            <span>Easy</span>
+        </div>
+        <button class="w-full bg-yellow-400 text-black font-bold py-3 rounded-lg mt-5">View Recipe</button>
+    </div>
+</div>
+
+<!-- Recipe 24 -->
+<div class="bg-[#151c2b] rounded-2xl overflow-hidden border border-gray-700 hover:border-yellow-400 hover:-translate-y-2 transition duration-300">
+    <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=600&q=80" alt="Indomie family special" class="w-full h-52 object-cover">
+    <div class="p-5">
+        <span class="text-yellow-400 text-xs font-bold">CHEF'S SPECIAL</span>
+        <h3 class="text-white text-xl font-bold mt-2">Indomie Family Special</h3>
+        <p class="text-gray-400 text-sm mt-3">A delicious noodle combination to share with family.</p>
+        <div class="flex justify-between text-gray-400 text-xs mt-5">
+            <span>⏱ 30 Minutes</span>
+            <span>Medium</span>
+        </div>
+        <button class="w-full bg-yellow-400 text-black font-bold py-3 rounded-lg mt-5">View Recipe</button>
+    </div>
+</div>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+<script src="scripty.js">
+const menuBtn = document.getElementById("menu-btn");
+    const mobileMenu = document.getElementById("mobile-menu");
+
+    menuBtn.addEventListener("click", function() {
+        mobileMenu.classList.toggle("hidden");
+    });
+    </script>
+</body>
+</html>

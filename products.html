@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indomie World | Delicious Moments</title>
+     <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900">
+    <header class=" bg-red-800/70 backdrop-blur-md text-white shadow-lg rounded-xl sticky top-0 z-50 4 ">
+        <nav class=" px-6 py-5 flex justify-between items-center">
+
+            <!-- LOGO -->
+            <a href="index.html" class="text-3xl font-extrabold">
+                Indomie<span class="text-yellow-400">World</span>
+            </a>
+
+           <!-- DESKTOP MENU -->
+            <div class="hidden md:flex items-center gap-8 font-semibold hidden md:flex gap-6 mx-auto flex max-w-7xl items-center justify-between gap-8">
+            <a href="index.html" class="hover:text-yellow-300">Home</a>
+            <a href="about.html" class="hover:text-yellow-300">About</a>
+            <a href="products.html" class="hover:text-yellow-300">Products</a>
+            <a href="recipes.html" class="hover:text-yellow-300">Recipes</a>
+            <a href="cooking.html" class="hover:text-yellow-300">Cooking Guide</a>
+            <a href="contact.html" class="hover:text-yellow-300">Contact</a>
+          
+                    
+             <!-- BUTTON -->
+            <a href="products.html" class="bg-yellow-400 text-red-700 px-6 py-3 rounded-full font-bold hover:bg-yellow-300 transition hover:scale-105 absolute right-20">
+                Explore Now
+            </a>
+              </div>
+                     <!-- HAMBURGER BUTTON -->
+            <button id="menu-btn" class="text-3xl md:hidden bg-yellow-400 text-red-700 px-4 py-2 rounded-full font-bold hover:bg-yellow-300 transition hover:scale-105">
+        ☰
+    </button>
+        </nav>
+    </header>
+
+<nav id="mobile-menu" class="hidden bg-red-900 text-white p-5 md:hidden">
+    <a href="index.html" class="block py-3">Home</a>
+    <a href="about.html" class="block py-3">About</a>
+    <a href="products.html" class="block py-3">Products</a>
+    <a href="recipes.html" class="block py-3">Shop</a>
+    <a href="cooking.html" class="block py-3">Gallery</a>
+    <a href="contact.html" class="block py-3">Contact</a>
+    <a href="products.html" class="bg-yellow-400 text-red-700 px-6 py-3 rounded-full font-bold hover:bg-yellow-300 transition hover:scale-105 block py-3">
+                Explore Now
+    </a>
+
+</nav>
+
+<section class="bg-orange-50 py-20 px-6">
+
+    <div class="max-w-7xl mx-auto">
+
+        <!-- Heading -->
+        <div class="text-center mb-14">
+            <h2 class="text-4xl md:text-5xl font-bold text-red-700 leading-tight mb-6">
+                How to Prepare Indomie
+            </h2>
+            <p class="text-gray-900 leading-8">
+                Learn the art of cooking Indomie with our step-by-step guide. From boiling the noodles to adding your favorite toppings, we make it easy for you to create a delicious meal in no time.
+            </p>
+        </div>
+
+        <!-- Content -->
+       
+<div class="bg-[#151c2b] rounded-2xl overflow-hidden border border-gray-700 hover:border-yellow-400 hover:-translate-y-2 transition duration-300">
+
+    <!-- Food Image -->
+    <img src="image/fried indommi.jpeg"
+         alt="Classic Indomie and Fried Egg"
+         class="w-full h-56 object-cover">
+
+    <!-- Card Content -->
+    <div class="p-6">
+
+        <div class="flex justify-between items-center mb-4">
+            <span class="bg-yellow-400 text-black px-3 py-1 rounded-full text-xs font-bold">
+                EASY
+            </span>
+
+            <span class="text-gray-400 text-sm">
+                15 MINUTES
+            </span>
+        </div>
+
+        <h3 class="text-white text-xl font-bold mb-3">
+            Classic Indomie & Fried Egg
+        </h3>
+
+        <p class="text-gray-400 text-sm leading-6 mb-5">
+            Learn how to prepare delicious classic Indomie
+            served with a tasty fried egg.
+        </p>
+
+        <button onclick="openTutorial()"
+    class="w-full bg-yellow-400 text-black py-3 rounded-lg font-bold hover:bg-yellow-300 transition">
+
+    View Tutorial →
+
+</button> 
+    </div>
+
+</div>
+
+<!-- Cooking Tutorial Popup -->
+<div id="tutorialModal"
+     class="hidden fixed inset-0 z-50 bg-black/80 flex items-center justify-center p-4">
+
+    <div class="bg-[#151c2b] text-white rounded-2xl p-6 max-w-2xl w-full max-h-[90vh] overflow-y-auto">
+
+        <div class="flex justify-between items-center mb-5">
+
+            <h2 class="text-2xl font-bold text-yellow-400">
+                Classic Indomie & Fried Egg
+            </h2>
+
+            <button onclick="closeTutorial()"
+                class="text-white text-3xl hover:text-yellow-400">
+                &times;
+            </button>
+
+        </div>
+
+        <img src="image/fried indommi.jpeg"
+             alt="Classic Indomie and fried egg"
+             class="w-full h-64 object-cover rounded-xl mb-5">
+
+        <h3 class="text-xl font-bold mb-3">Ingredients</h3>
+
+        <ul class="list-disc pl-6 text-gray-300 space-y-2 mb-6">
+            <li>1 pack of Indomie noodles</li>
+            <li>1 fresh egg</li>
+            <li>1 small carrot</li>
+            <li>Spring onions</li>
+            <li>Indomie seasoning</li>
+            <li>Water</li>
+        </ul>
+
+        <h3 class="text-xl font-bold mb-3">Cooking Instructions</h3>
+
+        <div class="space-y-4 text-gray-300">
+
+            <p><strong class="text-yellow-400">Step 1:</strong>
+            Boil water in a cooking pot.</p>
+
+            <p><strong class="text-yellow-400">Step 2:</strong>
+            Add the Indomie noodles and cook until soft, following the packet instructions.</p>
+
+            <p><strong class="text-yellow-400">Step 3:</strong>
+            Add the seasoning and mix properly.</p>
+
+            <p><strong class="text-yellow-400">Step 4:</strong>
+            Prepare your egg separately with the help of an adult.</p>
+
+            <p><strong class="text-yellow-400">Step 5:</strong>
+            Serve your noodles with the egg and vegetables.</p>
+
+        </div>
+
+        <p class="text-yellow-400 font-bold mt-6">
+            Your delicious Indomie meal is ready!
+        </p>
+
+    </div>
+</div>
+
+</section>
+
+<script src="scripty.js">
+const menuBtn = document.getElementById("menu-btn");
+    const mobileMenu = document.getElementById("mobile-menu");
+
+    menuBtn.addEventListener("click", function() {
+        mobileMenu.classList.toggle("hidden");
+    });
+
+ </script>
+ <script>
+function openTutorial() {
+    const modal = document.getElementById("tutorialModal");
+
+    modal.classList.remove("hidden");
+}
+
+function closeTutorial() {
+    const modal = document.getElementById("tutorialModal");
+
+    modal.classList.add("hidden");
+}
+
+    </script>
+</body>
+</html>
